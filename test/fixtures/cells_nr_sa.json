@@ -1,0 +1,68 @@
+{
+  "primaryCellList": [
+    {
+      "type": "NR",
+      "networkType": "20",
+      "nr": {
+        "nci": 8612167681,
+        "tac": 1401,
+        "pci": 512,
+        "bandNR": {
+          "downlinkArfcn": 630048,
+          "downlinkFrequency": 3450720,
+          "channelNumber": 630048,
+          "number": 78,
+          "name": "3500"
+        },
+        "signalNR": {
+          "csiRsrp": -91,
+          "csiRsrq": -11,
+          "csiSinr": 14,
+          "ssRsrp": -89,
+          "ssRsrq": -10,
+          "ssSinr": 17,
+          "csiRsrpAsu": 49,
+          "ssRsrpAsu": 51,
+          "dbm": -89
+        },
+        "subscriptionId": 1,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "NR",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    }
+  ],
+  "neighboringCellList": [],
+  "cellDataList": [
+    {
+      "timestamp": 0,
+      "type": "NR",
+      "subscriptionId": 1,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 630048,
+      "bandNumber": 78,
+      "bandName": "3500",
+      "dbm": -89,
+      "tac": 1401,
+      "pci": 512,
+      "nci": 8612167681,
+      "bandDownlinkArfcn": 630048,
+      "bandDownlinkFrequency": 3450720,
+      "csiRsrp": -91,
+      "csiRsrq": -11,
+      "csiSinr": 14,
+      "ssRsrp": -89,
+      "ssRsrq": -10,
+      "ssSinr": 17,
+      "csiRsrpAsu": 49,
+      "ssRsrpAsu": 51
+    }
+  ]
+}

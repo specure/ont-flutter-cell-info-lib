@@ -1,0 +1,134 @@
+{
+  "primaryCellList": [
+    {
+      "type": "LTE",
+      "networkType": "2147483644",
+      "lte": {
+        "bandwidth": 20000,
+        "eci": 26373121,
+        "tac": 4021,
+        "pci": 180,
+        "enb": 103020,
+        "cid": 1,
+        "ecgi": "231010026373121",
+        "bandLTE": {
+          "downlinkEarfcn": 1300,
+          "channelNumber": 1300,
+          "number": 3,
+          "name": "1800"
+        },
+        "signalLTE": {
+          "rssi": -65,
+          "rsrp": -95.0,
+          "rsrq": -9.5,
+          "snr": 12.4,
+          "cqi": 11,
+          "timingAdvance": 3,
+          "rssiAsu": 24,
+          "rsrpAsu": 45,
+          "dbm": -65
+        },
+        "subscriptionId": 1,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "LTE",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      },
+      "nrAvailable": true,
+      "enDcAvailable": true,
+      "nrConnected": true,
+      "nrConnectionStatus": "connected"
+    }
+  ],
+  "neighboringCellList": [
+    {
+      "type": "NR",
+      "nr": {
+        "pci": 512,
+        "bandNR": {
+          "downlinkArfcn": 630048,
+          "downlinkFrequency": 3450720,
+          "channelNumber": 630048,
+          "number": 78,
+          "name": "3500"
+        },
+        "signalNR": {
+          "csiRsrp": -91,
+          "csiRsrq": -11,
+          "csiSinr": 14,
+          "ssRsrp": -89,
+          "ssRsrq": -10,
+          "ssSinr": 17,
+          "csiRsrpAsu": 49,
+          "ssRsrpAsu": 51,
+          "dbm": -89
+        },
+        "subscriptionId": 1,
+        "connectionStatus": "SecondaryConnection(isGuess\u003dfalse)",
+        "type": "NR",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    }
+  ],
+  "cellDataList": [
+    {
+      "timestamp": 0,
+      "type": "LTE",
+      "subscriptionId": 1,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 1300,
+      "bandNumber": 3,
+      "bandName": "1800",
+      "cid": 1,
+      "dbm": -65,
+      "rssi": -65,
+      "timingAdvance": 3,
+      "bandwidth": 20000,
+      "eci": 26373121,
+      "tac": 4021,
+      "enb": 103020,
+      "ecgi": "231010026373121",
+      "downlinkEarfcn": 1300,
+      "rsrp": -95.0,
+      "rsrq": -9.5,
+      "snr": 12.4,
+      "cqi": 11,
+      "rssiAsu": 24,
+      "rsrpAsu": 45
+    },
+    {
+      "timestamp": 0,
+      "type": "NR",
+      "subscriptionId": 1,
+      "connectionStatus": "SecondaryConnection(isGuess\u003dfalse)",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 630048,
+      "bandNumber": 78,
+      "bandName": "3500",
+      "dbm": -89,
+      "pci": 512,
+      "bandDownlinkArfcn": 630048,
+      "bandDownlinkFrequency": 3450720,
+      "csiRsrp": -91,
+      "csiRsrq": -11,
+      "csiSinr": 14,
+      "ssRsrp": -89,
+      "ssRsrq": -10,
+      "ssSinr": 17,
+      "csiRsrpAsu": 49,
+      "ssRsrpAsu": 51
+    }
+  ]
+}

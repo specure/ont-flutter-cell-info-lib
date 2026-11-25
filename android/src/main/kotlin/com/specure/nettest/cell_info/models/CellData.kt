@@ -1,0 +1,89 @@
+package com.specure.nettest.cell_info.models
+
+import androidx.annotation.Keep
+import java.io.Serializable
+
+@Keep
+class CellData : Serializable {
+    var timestamp: Long = 0
+    var type: String? = null
+    var subscriptionId: Int? = null
+    var connectionStatus: String? = null
+    var mcc: String? = null
+    var mnc: String? = null
+    var iso: String? = null
+    var sid: Int? = null
+    var nid: Int? = null
+    var bid: Int? = null
+    var lat: Double? = null
+    var lon: Double? = null
+    var bandChannelNumber: Int? = null
+    var bandNumber: Int? = null
+    var bandName: String? = null
+    var cdmaRssi: Int? = null
+    var evdoRssi: Int? = null
+    var evdoSnr: Int? = null
+    var cdmaEcio: Double? = null
+    var evdoEcio: Double? = null
+    var cid: Int? = null
+    var lac: Int? = null
+    var bsic: Int? = null
+    var ncc: Int? = null
+    var bcc: Int? = null
+    var cgi: String? = null
+    var dbm: Int? = null
+    var rssi: Int? = null
+    var bitErrorRate: Int? = null
+    var timingAdvance: Int? = null
+    var bandwidth: Int? = null
+    var eci: Int? = null
+    var tac: Int? = null
+    var pci: Int? = null
+    var enb: Int? = null
+    var ecgi: String? = null
+    var downlinkEarfcn: Int? = null
+    var rsrp: Double? = null
+    var rsrq: Double? = null
+    var snr: Double? = null
+    var cqi: Int? = null
+    var rssiAsu: Int? = null
+    var rsrpAsu: Int? = null
+    var nci: Long? = null
+    var bandDownlinkArfcn: Int? = null
+    var bandDownlinkFrequency: Int? = null
+    var csiRsrp: Int? = null
+    var csiRsrq: Int? = null
+    var csiSinr: Int? = null
+    var ssRsrp: Int? = null
+    var ssRsrq: Int? = null
+    var ssSinr: Int? = null
+    var csiRsrpAsu: Int? = null
+    var ssRsrpAsu: Int? = null
+    var ci: Int? = null
+    var cpid: Int? = null
+    var rnc: Int? = null
+    var downlinkUarfcn: Int? = null
+    var rscp: Int? = null
+    var rscpAsu: Int? = null
+    var psc: Int? = null
+    var ecno: Int? = null
+    var ecio: Int? = null
+    var arfcn: Int? = null
+
+    var oSVERSION: String? = System.getProperty("os.version")
+    var rELEASE: String? = android.os.Build.VERSION.RELEASE
+    var dEVICE: String? = android.os.Build.DEVICE
+    var mODEL: String? = android.os.Build.MODEL
+    var pRODUCT: String? = android.os.Build.PRODUCT
+    var bRAND: String? = android.os.Build.BRAND
+    var dISPLAY: String? = android.os.Build.DISPLAY
+    var cPU_ABI: String? = android.os.Build.CPU_ABI
+    var cPU_ABI2: String? = android.os.Build.CPU_ABI2
+    var uNKNOWN: String? = android.os.Build.UNKNOWN
+    var hARDWARE: String? = android.os.Build.HARDWARE
+    var iD: String? = android.os.Build.ID
+    var mANUFACTURER: String? = android.os.Build.MANUFACTURER
+    var sERIAL: String? = android.os.Build.SERIAL
+    var uSER: String? = android.os.Build.USER
+    var hOST: String? = android.os.Build.HOST
+}

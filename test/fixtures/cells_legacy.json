@@ -1,0 +1,215 @@
+{
+  "primaryCellList": [
+    {
+      "type": "GSM",
+      "networkType": "2",
+      "gsm": {
+        "cid": 20441,
+        "lac": 5021,
+        "bsic": 43,
+        "bandGSM": {
+          "arfcn": 77,
+          "channelNumber": 77,
+          "number": 900,
+          "name": "900"
+        },
+        "signalGSM": {
+          "rssi": -79,
+          "bitErrorRate": 1,
+          "timingAdvance": 2,
+          "dbm": -79
+        },
+        "subscriptionId": 1,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "GSM",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    },
+    {
+      "type": "WCDMA",
+      "networkType": "3",
+      "wcdma": {
+        "ci": 13180203,
+        "lac": 5021,
+        "psc": 318,
+        "cid": 7467,
+        "rnc": 201,
+        "cgi": "231010502107467",
+        "bandWCDMA": {
+          "channelNumber": 10588,
+          "number": 1,
+          "name": "2100"
+        },
+        "signalWCDMA": {
+          "rssi": -73,
+          "bitErrorRate": 2,
+          "rscp": -84,
+          "rscpAsu": 36,
+          "rssiAsu": 20,
+          "ecno": -8,
+          "ecio": -6,
+          "dbm": -73
+        },
+        "subscriptionId": 2,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "WCDMA",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    },
+    {
+      "type": "WCDMA",
+      "networkType": "6",
+      "cdma": {
+        "sid": 4139,
+        "nid": 41,
+        "bid": 4562,
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "band": {},
+        "signalCDMA": {
+          "cdmaRssi": -88,
+          "evdoRssi": -90,
+          "evdoSnr": 6,
+          "cdmaEcio": -7.5,
+          "evdoEcio": -6.0,
+          "dbm": -88
+        },
+        "subscriptionId": 3,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "CDMA",
+        "network": {}
+      }
+    },
+    {
+      "type": "TDSCDMA",
+      "networkType": "null",
+      "tdscdma": {
+        "ci": 13180203,
+        "lac": 5021,
+        "cpid": 66,
+        "cid": 7467,
+        "rnc": 201,
+        "cgi": "231010502107467",
+        "bandTDSCDMA": {
+          "downlinkUarfcn": 10080,
+          "channelNumber": 10080,
+          "number": 34,
+          "name": "2000"
+        },
+        "signalTDSCDMA": {
+          "rssi": -75,
+          "bitErrorRate": 3,
+          "rscp": -86,
+          "rscpAsu": 34,
+          "rssiAsu": 19,
+          "dbm": -75
+        },
+        "subscriptionId": 4,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "TDSCDMA",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    }
+  ],
+  "neighboringCellList": [],
+  "cellDataList": [
+    {
+      "timestamp": 0,
+      "type": "GSM",
+      "subscriptionId": 1,
+      "connectionStatus": "PrimaryConnection()",
+      "bandChannelNumber": 77,
+      "bandNumber": 900,
+      "bandName": "900",
+      "cid": 20441,
+      "lac": 5021,
+      "bsic": 43,
+      "dbm": -79,
+      "rssi": -79,
+      "bitErrorRate": 1,
+      "timingAdvance": 2,
+      "arfcn": 77
+    },
+    {
+      "timestamp": 0,
+      "type": "WCDMA",
+      "subscriptionId": 2,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 10588,
+      "bandNumber": 1,
+      "bandName": "2100",
+      "cid": 7467,
+      "lac": 5021,
+      "cgi": "231010502107467",
+      "dbm": -73,
+      "rssi": -73,
+      "bitErrorRate": 2,
+      "rssiAsu": 20,
+      "ci": 13180203,
+      "rnc": 201,
+      "downlinkUarfcn": 10588,
+      "rscp": -84,
+      "rscpAsu": 36,
+      "psc": 318,
+      "ecno": -8,
+      "ecio": -6
+    },
+    {
+      "timestamp": 0,
+      "type": "CDMA",
+      "subscriptionId": 3,
+      "connectionStatus": "PrimaryConnection()",
+      "sid": 4139,
+      "nid": 41,
+      "bid": 4562,
+      "lat": 50.0755,
+      "lon": 14.4378,
+      "cdmaRssi": -88,
+      "evdoRssi": -90,
+      "evdoSnr": 6,
+      "cdmaEcio": -7.5,
+      "evdoEcio": -6.0,
+      "dbm": -88
+    },
+    {
+      "timestamp": 0,
+      "type": "TDSCDMA",
+      "subscriptionId": 4,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 10080,
+      "bandNumber": 34,
+      "bandName": "2000",
+      "cid": 7467,
+      "lac": 5021,
+      "cgi": "231010502107467",
+      "dbm": -75,
+      "rssi": -75,
+      "bitErrorRate": 3,
+      "rssiAsu": 19,
+      "ci": 13180203,
+      "cpid": 66,
+      "rnc": 201,
+      "downlinkUarfcn": 10080,
+      "rscp": -86,
+      "rscpAsu": 34
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: cell_info
+description: Cell and SIM information for Android, built on NetMonster Core.
+version: 0.2.0
+
+environment:
+  sdk: ^3.14.0
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.specure.nettest.cell_info
+        pluginClass: CellInfoPlugin

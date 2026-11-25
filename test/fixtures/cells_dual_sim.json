@@ -1,0 +1,186 @@
+{
+  "primaryCellList": [
+    {
+      "type": "LTE",
+      "networkType": "2147483644",
+      "lte": {
+        "bandwidth": 20000,
+        "eci": 26373121,
+        "tac": 4021,
+        "pci": 180,
+        "enb": 103020,
+        "cid": 1,
+        "ecgi": "231010026373121",
+        "bandLTE": {
+          "downlinkEarfcn": 1300,
+          "channelNumber": 1300,
+          "number": 3,
+          "name": "1800"
+        },
+        "signalLTE": {
+          "rssi": -65,
+          "rsrp": -95.0,
+          "rsrq": -9.5,
+          "snr": 12.4,
+          "cqi": 11,
+          "timingAdvance": 3,
+          "rssiAsu": 24,
+          "rsrpAsu": 45,
+          "dbm": -65
+        },
+        "subscriptionId": 1,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "LTE",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      },
+      "nrAvailable": false,
+      "enDcAvailable": true,
+      "nrConnected": false,
+      "nrConnectionStatus": "rejected",
+      "nrRejectedReason": "RESTRICTED"
+    },
+    {
+      "type": "WCDMA",
+      "networkType": "15",
+      "wcdma": {
+        "ci": 13180203,
+        "lac": 5021,
+        "psc": 318,
+        "cid": 7467,
+        "rnc": 201,
+        "cgi": "231010502107467",
+        "bandWCDMA": {
+          "channelNumber": 10588,
+          "number": 1,
+          "name": "2100"
+        },
+        "signalWCDMA": {
+          "rssi": -73,
+          "bitErrorRate": 2,
+          "rscp": -84,
+          "rscpAsu": 36,
+          "rssiAsu": 20,
+          "ecno": -8,
+          "ecio": -6,
+          "dbm": -73
+        },
+        "subscriptionId": 2,
+        "connectionStatus": "PrimaryConnection()",
+        "type": "WCDMA",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    }
+  ],
+  "neighboringCellList": [
+    {
+      "type": "GSM",
+      "gsm": {
+        "cid": 20441,
+        "lac": 5021,
+        "bsic": 43,
+        "bandGSM": {
+          "arfcn": 77,
+          "channelNumber": 77,
+          "number": 900,
+          "name": "900"
+        },
+        "signalGSM": {
+          "rssi": -79,
+          "bitErrorRate": 1,
+          "timingAdvance": 2,
+          "dbm": -79
+        },
+        "subscriptionId": 2,
+        "connectionStatus": "NoneConnection()",
+        "type": "GSM",
+        "network": {
+          "mcc": "231",
+          "mnc": "01",
+          "iso": "SK"
+        }
+      }
+    }
+  ],
+  "cellDataList": [
+    {
+      "timestamp": 0,
+      "type": "LTE",
+      "subscriptionId": 1,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 1300,
+      "bandNumber": 3,
+      "bandName": "1800",
+      "cid": 1,
+      "dbm": -65,
+      "rssi": -65,
+      "timingAdvance": 3,
+      "bandwidth": 20000,
+      "eci": 26373121,
+      "tac": 4021,
+      "enb": 103020,
+      "ecgi": "231010026373121",
+      "downlinkEarfcn": 1300,
+      "rsrp": -95.0,
+      "rsrq": -9.5,
+      "snr": 12.4,
+      "cqi": 11,
+      "rssiAsu": 24,
+      "rsrpAsu": 45
+    },
+    {
+      "timestamp": 0,
+      "type": "WCDMA",
+      "subscriptionId": 2,
+      "connectionStatus": "PrimaryConnection()",
+      "mcc": "231",
+      "mnc": "01",
+      "iso": "SK",
+      "bandChannelNumber": 10588,
+      "bandNumber": 1,
+      "bandName": "2100",
+      "cid": 7467,
+      "lac": 5021,
+      "cgi": "231010502107467",
+      "dbm": -73,
+      "rssi": -73,
+      "bitErrorRate": 2,
+      "rssiAsu": 20,
+      "ci": 13180203,
+      "rnc": 201,
+      "downlinkUarfcn": 10588,
+      "rscp": -84,
+      "rscpAsu": 36,
+      "psc": 318,
+      "ecno": -8,
+      "ecio": -6
+    },
+    {
+      "timestamp": 0,
+      "type": "GSM",
+      "subscriptionId": 2,
+      "connectionStatus": "NoneConnection()",
+      "bandChannelNumber": 77,
+      "bandNumber": 900,
+      "bandName": "900",
+      "cid": 20441,
+      "lac": 5021,
+      "bsic": 43,
+      "dbm": -79,
+      "rssi": -79,
+      "bitErrorRate": 1,
+      "timingAdvance": 2,
+      "arfcn": 77
+    }
+  ]
+}
