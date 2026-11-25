@@ -113,7 +113,9 @@ androidComponents {
 android {
     namespace = "com.specure.nettest.cell_info"
 
-    compileSdk = 37
+    // Kept one step behind the newest SDK on purpose: AGP records this as the minimum compileSdk
+    // of every app that uses the plugin, and nothing here needs a newer API.
+    compileSdk = 36
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
